@@ -6,7 +6,7 @@ function App() {
     <>
       <h2>Climate Monitor</h2>
       <div>
-        Station: Renningen, Jahr 2005 vs Jahr 2023
+        Station: Echterdingen, Jahr 1965 vs Jahr 2022
       </div>
       <div>
         <Chart/>

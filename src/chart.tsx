@@ -10,12 +10,12 @@ const Chart = () =>  {
 
       const dataService = new DataService();
 
-      const data = dataService.getMonthData();
+      const data = dataService.getMonthData(1965, 2022);
 
       setChartOptions({
         data: data,
-        series: [{ type: 'line', xKey: 'month', yKey: '2005', yName: '2005' },
-                 { type: 'line', xKey: 'month', yKey: '2023', yName: '2023' }],
+        series: [{ type: 'line', xKey: 'month', yKey: 'year1', yName: '1965' },
+                 { type: 'line', xKey: 'month', yKey: 'year2', yName: '2022' }],
       })
     } 
     ,[]);
